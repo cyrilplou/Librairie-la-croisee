@@ -1,0 +1,30 @@
+.SearchArea{
+    margin-top: 1rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SearchBar{
+    width: 80vw;
+    height: 2rem;
+    border-radius: 0.6rem;
+
+}
+.category{
+    margin-top: 1rem;
+}
+.categoryButton {
+    margin: 0px 3px;
+    border-radius: 8px;
+    padding: 5px 8px;
+    
+}
+.categoryButtonselected {
+    margin: 0px 3px;
+    border-radius: 8px;
+    padding: 5px 8px;
+    background-color: rgb(113, 191, 125);
+    
+}

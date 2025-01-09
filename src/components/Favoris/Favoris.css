@@ -1,0 +1,21 @@
+.Favoris{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.imgFav{
+    margin-top: 1rem;
+    width: 50vw;
+    box-shadow: 0px 3px 5px black;
+}
+.iconeFav{
+    position: absolute;
+    bottom: 1rem;
+    left: 4.5rem;
+    width: 12vw;
+    height: 12vw;
+    background-color: gainsboro;
+    border-radius: 5rem;
+    filter: drop-shadow(0px 2px 5px black);
+}

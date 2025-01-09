@@ -1,0 +1,19 @@
+nav{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 3px 5px black;
+}
+
+.SiteTitle{
+    color: #4C697C;
+    margin-left: 3rem;
+    font-weight: 800;
+    margin-left: 0.5rem;
+}

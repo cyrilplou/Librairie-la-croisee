@@ -4,6 +4,14 @@
     justify-content: center;
     position: relative;
 }
+.FavorisActive{
+    width: 100vw;
+    display: flex;
+    margin-top: -15rem;
+    justify-content: center;
+    position: relative;
+    transition-duration: 1000ms;
+}
 .imgFav{
     margin-top: 1rem;
     width: 50vw;

@@ -4,16 +4,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    transition-duration: 1000ms;
 
+}
+.SearchAreaActive{
+    transition-duration: 1000ms;
+    margin-top: 1rem;
+    width: 100vw;
+    /* margin-top: -10rem; */
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 .SearchBar{
     width: 80vw;
     height: 2rem;
+    z-index: 9999;
+
     border-radius: 0.6rem;
 
 }
 .category{
     margin-top: 1rem;
+    z-index: 9999;
+
 }
 .categoryButton {
     margin: 0px 3px;

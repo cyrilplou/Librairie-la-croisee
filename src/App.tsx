@@ -9,11 +9,13 @@ function App() {
 
   const [searchTerm, setSearchTerm] = useState("");
   const [categorie, setCategory] = useState("");
+  const [searchIsActive, setSearchIsActive] = useState(false)
+
   return (
     <>
     < Header />
-    < Favoris />
-    < Search setSearchTerm={setSearchTerm} searchTerm={searchTerm}categorie={categorie} setCategory={setCategory}/>
+    < Favoris searchIsActive={searchIsActive}/>
+    < Search setSearchTerm={setSearchTerm} searchTerm={searchTerm}categorie={categorie} setCategory={setCategory}searchIsActive={searchIsActive} setSearchIsActive={setSearchIsActive}/>
     < DisplayBooks searchTerm={searchTerm} categorie={categorie}/>
     </>
   )
